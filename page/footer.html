@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Button</title>
+    <!-- Menggunakan link yang tepat untuk ikon Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Floating WhatsApp Button */
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #1fa04f;
+            color: #000000;
+            border-radius: 50px;
+            text-align: center;
+            box-shadow: 2px 2px 3px #000000;
+            z-index: 1000;
+        }
+
+        .my-float {
+            margin-top: 22px;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+            color: #1f1d1d;
+        }
+    </style>
+</head>
+<body>
+    <!-- WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send?phone=628994649934&text=Saya%20butuh%20informasi%20lebih%20lanjut..."
+       class="float"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    
+    <!-- Copyright Information -->
+    <p>Copyright &copy; Nabila Putri</p>
+</body>
+</html>
